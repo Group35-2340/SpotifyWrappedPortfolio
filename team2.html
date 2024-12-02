@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Wrapped - Team</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Use the shared styles2.css -->
+    <style>
+        /* Add bubble styling directly if not in styles2.css */
+        .team-bubble {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .team-bubble:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-bubble h2 {
+            color: #1DB954; /* Spotify green */
+            margin-bottom: 10px;
+        }
+
+        .team-bubble p {
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body id="team2-page">
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="nav">
+            <div class="logo-container">
+                <img src="spotify-logo.png" alt="Spotify Logo" class="logo-image">
+                <h1><a href="index2.html" class="logo-text">Spotify Wrapped</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="team2.html">Team</a></li>
+                    <li><a href="project2.html">Project</a></li>
+                    <li><a href="process2.html">Process</a></li>
+                    <li><a href="video2.html">Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Team Section -->
+    <section class="team" style="padding: 20px;">
+        <h2>Meet the Team </h2>
+
+        <!-- Team member bubbles -->
+        <div class="team-bubble">
+            <h2>Youssef M.</h2>
+            <p><strong>Role:</strong> Lead Front-end Developer</p>
+            <p>Ensures a responsive, aesthetically pleasing UI. Leads dark mode toggle, multi-language support, and security best practices for API keys.</p>
+        </div>
+        
+        <div class="team-bubble">
+            <h2>Mohammed N.</h2>
+            <p><strong>Role:</strong> Front-end Developer</p>
+            <p>General front-end development and ensures proper function documentation for easier team collaboration.</p>
+        </div>
+        
+        <div class="team-bubble">
+            <h2>Abdullah K.</h2>
+            <p><strong>Role:</strong> Scrum Master & Full-stack Developer</p>
+            <p>Coordinates team efforts, works on LLM integration for music-related descriptions, and ensures seamless transition animations.</p>
+        </div>
+        
+        <div class="team-bubble">
+            <h2>Mafaaz S.</h2>
+            <p><strong>Role:</strong> Back-end Developer</p>
+            <p>Handles account deletion, persistence, and past Wrapped retrieval. Adds social media sharing features for users’ Wrapped content.</p>
+        </div>
+        
+        <div class="team-bubble">
+            <h2>Nabhan S.</h2>
+            <p><strong>Role:</strong> Back-end Developer & Public Host Manager</p>
+            <p>Hosts the application on a cloud platform (e.g., Heroku) and general back-end development.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Spotify Wrapped by Group 35</p>
+    </footer>
+
+</body>
+</html>

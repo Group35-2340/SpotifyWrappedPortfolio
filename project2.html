@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Wrapped - Project</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Spotify Wrapped-specific styles -->
+    <style>
+        /* Ensure scrolling is enabled */
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: auto; /* Allow vertical scrolling */
+        }
+
+        html {
+            height: auto;
+            overflow-y: scroll; /* Always allow scrolling */
+        }
+
+        footer {
+            margin-top: 10px; /* Adjust margin to fit */
+        }
+    </style>
+</head>
+<body id="project2-page">
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="nav">
+            <div class="logo-container">
+                <img src="spotify-logo.png" alt="Spotify Logo" class="logo-image">
+                <h1><a href="index2.html" class="logo-text">Spotify Wrapped</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="team2.html">Team</a></li>
+                    <li><a href="project2.html">Project</a></li>
+                    <li><a href="process2.html">Process</a></li>
+                    <li><a href="video2.html">Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Overview Section -->
+    <section class="project-description" style="padding: 20px; margin-bottom: 10px;"> <!-- Reduced padding and margin -->
+        <h2>Spotify Wrapped Project Overview</h2>
+        <div class="paragraph-bubble" style="margin-bottom: 10px; padding: 15px;"> <!-- Condensed spacing -->
+            <p>Spotify Wrapped by Group 35 is a web application that allows users to explore detailed insights into their Spotify listening habits. The project is powered by a combination of Django for the backend, and JavaScript, HTML, and CSS for the frontend.</p>
+        </div>
+        <div class="paragraph-bubble" style="margin-bottom: 10px; padding: 15px;"> <!-- Condensed spacing -->
+            <p>The application pulls data from Spotify and presents it in a visually engaging, user-friendly interface.</p>
+        </div>
+    </section>
+
+    <!-- Project Structure and Key Files Section -->
+    <section class="project-description" style="padding: 20px; margin-bottom: 10px;"> <!-- Reduced padding and margin -->
+        <h2>Project Structure and Key Files</h2>
+        <div class="paragraph-bubble" style="margin-bottom: 10px; padding: 15px;"> <!-- Condensed spacing -->
+            <h3>Django Backend</h3>
+            <ul>
+                <li><strong>settings.py:</strong> Essential configurations for the project, including database settings, middleware, and templates.</li>
+                <li><strong>models.py:</strong> Defines database models for Spotify data such as user profiles and Wrapped statistics.</li>
+                <li><strong>views.py:</strong> Contains logic for handling user requests and retrieving Wrapped data.</li>
+                <li><strong>urls.py:</strong> Maps URLs to views, enabling user navigation.</li>
+                <li><strong>admin.py:</strong> Manages data in the admin interface for easy updates.</li>
+            </ul>
+        </div>
+        <div class="paragraph-bubble" style="margin-bottom: 10px; padding: 15px;"> <!-- Condensed spacing -->
+            <h3>Frontend</h3>
+            <ul>
+                <li><strong>HTML:</strong> Structures the user interface with templates for various pages, such as index.html for the landing page, wrap_detail.html for detailed Spotify statistics, and about.html for project information.</li>
+                <li><strong>CSS:</strong> Provides modular styles with files like index.css for the landing page, detail.css for statistics details, and base_generic.css for global styles ensuring consistency and responsive design.</li>
+                <li><strong>JavaScript:</strong> Handles limited dynamic functionality embedded directly within the Django templates, such as basic interactivity and user-friendly DOM manipulation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer style="margin-top: 10px;"> <!-- Adjusted margin to move the footer higher -->
+        <p>&copy; 2024 Spotify Wrapped by Group 35</p>
+    </footer>
+
+</body>
+</html>

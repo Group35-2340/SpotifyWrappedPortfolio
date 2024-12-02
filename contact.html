@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Wrapped - Contact Us</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Shared Spotify Wrapped styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Spotify's dark theme */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        button {
+            background-color: #1DB954; /* Spotify green */
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #17a34a;
+        }
+
+        .community-section {
+            margin-top: 30px;
+        }
+
+        .community-section a {
+            color: #1DB954;
+            text-decoration: none;
+        }
+
+        .community-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="nav">
+            <div class="logo-container">
+                <img src="spotify-logo.png" alt="Spotify Logo" class="logo-image"> <!-- Spotify logo -->
+                <h1><a href="index2.html" class="logo-text">Spotify Wrapped</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="team2.html">Team</a></li>
+                    <li><a href="project2.html">Project</a></li>
+                    <li><a href="process2.html">Process</a></li>
+                    <li><a href="video2.html">Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Can’t find the solution you’re looking for? Here’s how to get help from our experts.</p>
+        <p class="note"><strong>Note:</strong> We currently don’t offer support by phone.</p>
+
+        <!-- Contact Form -->
+        <form action="mailto:ymashaly3@gatech.edu" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Similar Community Section -->
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Spotify Wrapped by Group 35</p>
+    </footer>
+
+</body>
+</html>

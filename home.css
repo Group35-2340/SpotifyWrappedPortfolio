@@ -1,0 +1,94 @@
+/* General styles for the team page */
+body#home-team-page {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section */
+.hero {
+    background-color: #6DA39F; /* Same green as home buttons */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* Team members section */
+.team-members {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.team-members h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-item {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 10px 20px; /* Reduced padding for smaller bubbles */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px; /* Reduced width for smaller bubbles */
+    font-size: 1.2em; /* Font size adjustment */
+}
+
+.team-item h4 {
+    margin: 0;
+    color: #6DA39F; /* Green for names */
+}
+
+
+.team-item p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #333; /* Dark text for roles */
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    background-color: #6DA39F; /* Same green as home buttons */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.call-to-action .cta-button {
+    background-color: white;
+    color: #6DA39F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.call-to-action .cta-button:hover {
+    background-color: #4E857F; /* Darker green */
+    color: white;
+}
